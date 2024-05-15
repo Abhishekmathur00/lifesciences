@@ -1,4 +1,4 @@
-// import Inquery from "@/app/contact/Inquery";
+import Inquery from "@/app/contact/Inquery";
 import React from "react";
 
 const Inquiryform = () => {
