@@ -1,4 +1,4 @@
-import Inquery from "@/app/contact/inquery";
+// import Inquery from "@/app/contact/Inquery";
 import React from "react";
 
 const Inquiryform = () => {
@@ -12,12 +12,10 @@ const Inquiryform = () => {
         <form className="lg:px-40 md:px-10">
           <div className="">
 
-
           <Inquery />              
             
           </div>
-
-          
+ 
         </form>
       </div>
     </div>
