@@ -1,12 +1,12 @@
-import Banner from "@/components/Homepage/Banner";
-import Inquiryform from "@/components/Homepage/Inquiryform";
-import Last from "@/components/Homepage/Last";
-import Management from "@/components/Homepage/Management";
-import Offerings from "@/components/Homepage/Offerings";
-import WhychooseUs from "@/components/Homepage/WhychooseUs";
-import Information from "@/components/Homepage/information";
-import Products from "@/components/Homepage/products";
-import Videosection from "@/components/Homepage/videosection";
+import Banner from "@/components/homepage/Banner";
+import Inquiryform from "@/components/homepage/Inquiryform";
+import Last from "@/components/homepage/Last";
+import Management from "@/components/homepage/Management";
+import Offerings from "@/components/homepage/Offerings";
+import WhychooseUs from "@/components/homepage/WhychooseUs";
+import Information from "@/components/homepage/Information";
+import Products from "@/components/homepage/Products";
+import Videosection from "@/components/homepage/Videosection";
 export default function Home() {
   return (
     <div>
