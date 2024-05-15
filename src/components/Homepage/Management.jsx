@@ -42,8 +42,7 @@ const Management = () => {
       </div>
 
       <div className="grid grid-cols-12">
-        {data.map((d) => {
-          return (
+        {data.map((d) => (
             <div className="lg:col-span-3 md:col-span-6 sm:col-span-10 py-5">  
               <div className="mx-4 text-center border border-gray-400 rounded-lg shadow-lg p-8">
                 <Image src={d.image} alt={d.name} width={500} height={450} />
@@ -54,8 +53,8 @@ const Management = () => {
                 </div>
               </div>
             </div>
-          );
-        })}
+          )
+        )}
       </div>
     </div>
   );
