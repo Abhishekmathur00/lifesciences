@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import menuData from "./MenuData";
+import menuData from "./menuData";
 import Top from "./Top";
 
 const Header = () => {

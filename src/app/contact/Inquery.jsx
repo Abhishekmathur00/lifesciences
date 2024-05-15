@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
-import { form } from "../services/user";
+import { form } from "@/services/user";
 
 const Inquery = () => {
   const router = useRouter();
