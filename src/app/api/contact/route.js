@@ -1,4 +1,4 @@
-import connection from "@/helper/db";
+import connection from "../helper/db";
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 import { v4 as uuid } from "uuid";
