@@ -7,7 +7,8 @@ const Footer = () => {
       <div>
         <footer className="w-full">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            {/* <!--Grid--> */}
+
+
             <div className="py-14 grid grid-cols-12 gap-x-5 gap-y-8">
               <div className="col-span-full xl:col-span-3 relative bg-gradient-to-t from-primary to-secondary/40 rounded-2xl gap-12 p-6 xl:w-72 h-96 flex flex-col justify-center items-center">
                 <Link href="/" className="flex justify-center lg:justify-start">
@@ -188,7 +189,8 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            {/* <!--Grid--> */}
+
+
           </div>
           <div className="py-4 bg-indigo-50">
             <div className="flex items-center justify-center">
