@@ -1,0 +1,28 @@
+.imageContainer {
+    overflow: hidden;
+  }
+  
+  .shineEffect {
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.5) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    animation: shine 1.5s infinite;
+  }
+  
+  @keyframes shine {
+    from {
+      left: -50%;
+    }
+    to {
+      left: 100%;
+    }
+  }
+  
