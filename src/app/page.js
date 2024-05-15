@@ -1,7 +1,7 @@
 // import Banner from "@/components/homepage/Banner";
 // import Inquiryform from "@/components/homepage/Inquiryform";
 // import Last from "@/components/homepage/Last";
-import Management from "@/components/homepage/Management";
+import Management from "../components/homepage/Management";
 import Offerings from "@/components/homepage/Offerings";
 import WhychooseUs from "@/components/homepage/WhychooseUs";
 import Information from "@/components/homepage/Information";
