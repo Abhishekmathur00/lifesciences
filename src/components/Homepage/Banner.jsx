@@ -83,7 +83,7 @@ function Banner() {
 
               {index === currentSlide && (
                 <div
-                  className={`absolute lg:top-48 top-44 left-0 w-full h-full flex items-center lg:ml-[205px] ml-[15px] ${
+                  className={`absolute lg:top-42 top-48 left-0 w-full h-full flex items-center lg:ml-[205px] ml-[15px] ${
                     index === currentSlide
                       ? "animate__animated animate__slideInUp"
                       : ""
@@ -94,7 +94,8 @@ function Banner() {
                       
                       className={`p-3 shadow-2xl bg-primary font-semibold text-white`}
                     >
-                      Boucher
+                    
+                      Brochure
                     </button>
                   </Link>
 
