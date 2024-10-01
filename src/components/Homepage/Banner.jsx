@@ -95,7 +95,7 @@ function Banner() {
                       className={`p-3 shadow-2xl bg-primary font-semibold text-white`}
                     >
                     
-                      Brochure
+                     new Brochure
                     </button>
                   </Link>
 
